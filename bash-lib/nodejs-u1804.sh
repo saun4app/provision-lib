@@ -14,7 +14,9 @@ sudo apt-get update -y
 sudo apt-get install -y yarn
 yarn -v
 sudo apt install -y gulp
+
 # yarn global add gulp-cli
+# yarn global add gulp-util
 
 # npm config get prefix
 # mkdir ~/.npm-global

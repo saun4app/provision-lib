@@ -11,3 +11,4 @@ docker -v
 
 
 # https://linuxconfig.org/how-to-install-docker-on-ubuntu-18-04-bionic-beaver
+# https://linoxide.com/linux-how-to/use-docker-without-sudo-ubuntu/
