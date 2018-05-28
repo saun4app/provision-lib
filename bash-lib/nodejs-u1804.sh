@@ -1,6 +1,6 @@
 sudo apt-get install -y build-essential
 
-curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
 node -v
 npm -v
@@ -13,7 +13,7 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt-get update -y
 sudo apt-get install -y yarn
 yarn -v
-
+sudo apt install -y gulp
 # yarn global add gulp-cli
 
 # npm config get prefix
